@@ -1,0 +1,274 @@
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image:url(../images/banner1.png);
+    
+    background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    position: relative;
+    padding: 0%;
+}
+.navbar-light .navbar-nav .nav-item{
+    padding: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color:#0B5178;
+    transition:.5s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+    height: 2px;
+    width: 0%;
+    background-color:#0B5178;
+    transition:.5s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 47%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 47%;
+}
+.banner-content{
+    min-height: 90vh;
+    align-items: center;
+    position: relative;
+}
+.banner-content h5{
+
+    font-size: 14px;
+
+    color: #008ED6;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 54px;
+
+}
+.banner-content h1{
+
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 9px;
+}
+.banner-content p{
+
+font-size: 18px;
+
+color: #999999;
+
+font-family: 'Source Sans Pro', sans-serif;
+
+padding-top: 23px;
+
+padding-bottom: 25px;
+}
+
+.btn-download{
+
+    color: #fff !important;
+    border: 1px solid rgb(77, 76, 76);
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #008ED6;
+    height: 40px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif
+}
+.btn-features{
+
+    background-color: #008ED6;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: 31px;
+    font-family: 'Source Sans Pro', sans-serif
+}
+.btn-download:hover{
+    color: #fff !important;
+    background-color:transparent;
+    border: 1px solid rgb(77, 76, 76);
+}
+.btn-features:hover{
+    color: #fff !important;
+    background-color:transparent;
+    border: 1px solid rgb(77, 76, 76);
+}
+.phone{
+
+    position: absolute;
+    left: 59%;
+    bottom: 0;
+    }
+.phone img{
+     width: 40%;
+}
+.part2{
+
+}
+.part2 h5{
+
+    color: #008ED6;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+}
+.part2 h3{
+
+    color: #1A1A1A;
+    font-size: 36px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+.part2 span{
+    display: inline-block;
+    height: 2px;
+    width: 70px;
+    position: relative;
+    
+}
+.part2 span::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    left: 0;
+    top: 0;
+    transition:.5s all ease-in-out;
+    background-color:#008ED6 ;
+}
+.part2 span::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    top: 0;
+    right: 0;
+    transition:.5s all ease-in-out;
+    background-color:#008ED6 ;
+    
+}
+.amazing-future:hover .part2 span::before{
+    width: 48%;
+    
+}
+.amazing-future:hover .part2 span::after{
+    width: 48%;
+
+}
+.responsive-part{
+
+}
+
+.icon-box{
+
+height: 66px;
+
+width: 66px;
+
+border: 1px solid #e6e1e1;
+
+border-radius: 51px;
+
+font-size: 23px;
+
+line-height: -60px;
+
+line-height: 59px;
+
+margin: auto;
+
+color: #80C6EA;
+}
+
+.responsive-part h2{
+
+    font-size: 24px;
+
+    padding-top: 35px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.responsive-part p{
+
+    font-size: 18px;
+
+    color: #c5c1c1;
+
+    padding-top: 12px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+.awsome-device{
+
+}
+.phone2{
+
+}
+.phone2 img{
+    
+width: 71%;
+}
+.the-details{
+
+}
+.the-details h5{
+
+}
+.the-details h3{
+
+}
+.awsome-device span{
+    display: inline-block;
+    height: 2px;
+    width: 70px;
+    
+    position: relative;
+    background-color:#008ED6 ;
+}
+
+.awsome-device span::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 48%;
+    left: 0;
+    top: 0;
+    background-color:#008ED6 ;
+}
+.awsome-device span::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 48%;
+    top: 0;
+    right: 0;
+    background-color:#008ED6 ;
+    
+}
